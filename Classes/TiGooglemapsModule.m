@@ -39,9 +39,7 @@
 
 - (void)enableMetalRenderer:(id)unused
 {
-  TiThreadPerformOnMainThread(^{
-    [GMSServices setMetalRendererEnabled:YES];
-  }, NO);
+  DEPRECATED_REMOVED(@"enableMetalRenderer", @"10.0.0", @"10.0.0");
 }
 
 - (NSString *)openSourceLicenseInfo

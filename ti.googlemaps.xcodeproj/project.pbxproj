@@ -3,30 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
-
-/* Begin PBXAggregateTarget section */
-		24416B8111C4CA220047AFDD /* Build & Test */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
-			buildPhases = (
-				24416B8011C4CA220047AFDD /* ShellScript */,
-			);
-			dependencies = (
-				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
-			);
-			name = "Build & Test";
-			productName = "Build & test";
-		};
-/* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
 		24DD6CF91134B3F500162E58 /* TiGooglemapsModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiGooglemapsModule.h */; };
 		24DD6CFA1134B3F500162E58 /* TiGooglemapsModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiGooglemapsModule.m */; };
 		24DE9E1111C5FE74003F90F6 /* TiGooglemapsModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiGooglemapsModuleAssets.h */; };
 		24DE9E1211C5FE74003F90F6 /* TiGooglemapsModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiGooglemapsModuleAssets.m */; };
-		3A2B2B3B28D2464100915BB4 /* GoogleMapsUtils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2B2B3A28D2464100915BB4 /* GoogleMapsUtils.xcframework */; };
+		3A0C287A2C356BC70002709B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0C28792C356BC60002709B /* Metal.framework */; };
+		3A0C287C2C356BF10002709B /* GoogleMapsUtils.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0C287B2C356BF10002709B /* GoogleMapsUtils.xcframework */; };
 		3A2B2B3F28D2472500915BB4 /* GoogleMaps.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2B2B3C28D2472500915BB4 /* GoogleMaps.xcframework */; };
 		3A2B2B4028D2472500915BB4 /* GoogleMapsBase.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2B2B3D28D2472500915BB4 /* GoogleMapsBase.xcframework */; };
 		3A2B2B4128D2472500915BB4 /* GoogleMapsCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2B2B3E28D2472500915BB4 /* GoogleMapsCore.xcframework */; };
@@ -37,7 +23,6 @@
 		3A433F031BE9AB270005C8AE /* TiGooglemapsPolygonProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A433F011BE9AB270005C8AE /* TiGooglemapsPolygonProxy.m */; };
 		3A433F071BE9AE620005C8AE /* TiGooglemapsCircleProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A433F051BE9AE620005C8AE /* TiGooglemapsCircleProxy.h */; };
 		3A433F081BE9AE620005C8AE /* TiGooglemapsCircleProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A433F061BE9AE620005C8AE /* TiGooglemapsCircleProxy.m */; };
-		3A5942DC2806163A00664CD0 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5942DB2806163A00664CD0 /* Metal.framework */; };
 		3A7097E21BF1CD9B0044DBFB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF900A31BC1ED7800172627 /* ImageIO.framework */; };
 		3ACA7B111D2986FC00847EBF /* TiGooglemapsAutocompleteDialogProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACA7B0F1D2986FC00847EBF /* TiGooglemapsAutocompleteDialogProxy.h */; };
 		3ACA7B121D2986FC00847EBF /* TiGooglemapsAutocompleteDialogProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA7B101D2986FC00847EBF /* TiGooglemapsAutocompleteDialogProxy.m */; };
@@ -83,24 +68,15 @@
 		DBEFA8DE1F19272700A8FA1D /* TiGooglemapsRendererProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEFA8DC1F19272700A8FA1D /* TiGooglemapsRendererProxy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = ti.googlemaps;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		24DD6CF71134B3F500162E58 /* TiGooglemapsModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGooglemapsModule.h; path = Classes/TiGooglemapsModule.h; sourceTree = "<group>"; };
 		24DD6CF81134B3F500162E58 /* TiGooglemapsModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGooglemapsModule.m; path = Classes/TiGooglemapsModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
 		24DE9E0F11C5FE74003F90F6 /* TiGooglemapsModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGooglemapsModuleAssets.h; path = Classes/TiGooglemapsModuleAssets.h; sourceTree = "<group>"; };
 		24DE9E1011C5FE74003F90F6 /* TiGooglemapsModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGooglemapsModuleAssets.m; path = Classes/TiGooglemapsModuleAssets.m; sourceTree = "<group>"; };
+		3A0C28792C356BC60002709B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		3A0C287B2C356BF10002709B /* GoogleMapsUtils.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsUtils.xcframework; path = platform/GoogleMapsUtils.xcframework; sourceTree = "<group>"; };
 		3A142F471C87748D00215B67 /* TiGooglemapsConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TiGooglemapsConstants.h; path = Classes/TiGooglemapsConstants.h; sourceTree = "<group>"; };
-		3A2B2B3A28D2464100915BB4 /* GoogleMapsUtils.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsUtils.xcframework; path = platform/GoogleMapsUtils.xcframework; sourceTree = "<group>"; };
 		3A2B2B3C28D2472500915BB4 /* GoogleMaps.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMaps.xcframework; path = platform/GoogleMaps.xcframework; sourceTree = "<group>"; };
 		3A2B2B3D28D2472500915BB4 /* GoogleMapsBase.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsBase.xcframework; path = platform/GoogleMapsBase.xcframework; sourceTree = "<group>"; };
 		3A2B2B3E28D2472500915BB4 /* GoogleMapsCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = GoogleMapsCore.xcframework; path = platform/GoogleMapsCore.xcframework; sourceTree = "<group>"; };
@@ -111,7 +87,6 @@
 		3A433F011BE9AB270005C8AE /* TiGooglemapsPolygonProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGooglemapsPolygonProxy.m; path = Classes/TiGooglemapsPolygonProxy.m; sourceTree = "<group>"; };
 		3A433F051BE9AE620005C8AE /* TiGooglemapsCircleProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGooglemapsCircleProxy.h; path = Classes/TiGooglemapsCircleProxy.h; sourceTree = "<group>"; };
 		3A433F061BE9AE620005C8AE /* TiGooglemapsCircleProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGooglemapsCircleProxy.m; path = Classes/TiGooglemapsCircleProxy.m; sourceTree = "<group>"; };
-		3A5942DB2806163A00664CD0 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
 		3ACA7B0F1D2986FC00847EBF /* TiGooglemapsAutocompleteDialogProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGooglemapsAutocompleteDialogProxy.h; path = Classes/TiGooglemapsAutocompleteDialogProxy.h; sourceTree = "<group>"; };
 		3ACA7B101D2986FC00847EBF /* TiGooglemapsAutocompleteDialogProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiGooglemapsAutocompleteDialogProxy.m; path = Classes/TiGooglemapsAutocompleteDialogProxy.m; sourceTree = "<group>"; };
 		3ACF6A101CBA800600BC765B /* TiGooglemapsAnnotationProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiGooglemapsAnnotationProxy.h; path = Classes/TiGooglemapsAnnotationProxy.h; sourceTree = "<group>"; };
@@ -165,13 +140,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0C287A2C356BC70002709B /* Metal.framework in Frameworks */,
 				3A2B2B4128D2472500915BB4 /* GoogleMapsCore.xcframework in Frameworks */,
-				3A5942DC2806163A00664CD0 /* Metal.framework in Frameworks */,
 				3AF900AB1BC1ED7800172627 /* Accelerate.framework in Frameworks */,
 				3AF900AC1BC1ED7800172627 /* AVFoundation.framework in Frameworks */,
 				3AF900AD1BC1ED7800172627 /* CoreBluetooth.framework in Frameworks */,
-				3A2B2B3B28D2464100915BB4 /* GoogleMapsUtils.xcframework in Frameworks */,
 				3AF900AE1BC1ED7800172627 /* CoreData.framework in Frameworks */,
+				3A0C287C2C356BF10002709B /* GoogleMapsUtils.xcframework in Frameworks */,
 				3AF900AF1BC1ED7800172627 /* CoreGraphics.framework in Frameworks */,
 				3AF900B01BC1ED7800172627 /* CoreLocation.framework in Frameworks */,
 				3AF900B11BC1ED7800172627 /* CoreText.framework in Frameworks */,
@@ -212,11 +187,11 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3A5942DB2806163A00664CD0 /* Metal.framework */,
+				3A0C28792C356BC60002709B /* Metal.framework */,
 				3A2B2B3C28D2472500915BB4 /* GoogleMaps.xcframework */,
 				3A2B2B3D28D2472500915BB4 /* GoogleMapsBase.xcframework */,
 				3A2B2B3E28D2472500915BB4 /* GoogleMapsCore.xcframework */,
-				3A2B2B3A28D2464100915BB4 /* GoogleMapsUtils.xcframework */,
+				3A0C287B2C356BF10002709B /* GoogleMapsUtils.xcframework */,
 				3A2B2B4228D2474500915BB4 /* GooglePlaces.xcframework */,
 				3AF9009B1BC1ED7800172627 /* Accelerate.framework */,
 				3AF9009C1BC1ED7800172627 /* AVFoundation.framework */,
@@ -469,7 +444,8 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1330;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1540;
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ti.googlemaps" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -477,9 +453,6 @@
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				en,
-				ja,
-				fr,
-				de,
 				Base,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* ti.googlemaps */;
@@ -488,26 +461,9 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* ti.googlemaps */,
-				24416B8111C4CA220047AFDD /* Build & Test */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		24416B8011C4CA220047AFDD /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AAC07B0554694100DB518D /* Sources */ = {
@@ -538,14 +494,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* ti.googlemaps */;
-			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
@@ -672,6 +620,7 @@
 				DSTROOT = /tmp/TiGooglemaps.dst;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMaps/Frameworks",
@@ -744,6 +693,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				DSTROOT = /tmp/TiGooglemaps.dst;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMaps/Frameworks",
@@ -781,30 +731,6 @@
 			};
 			name = Release;
 		};
-		24416B8211C4CA220047AFDD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				PRODUCT_NAME = "Build & test";
-			};
-			name = Debug;
-		};
-		24416B8311C4CA220047AFDD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				PRODUCT_NAME = "Build & test";
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -822,15 +748,6 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24416B8211C4CA220047AFDD /* Debug */,
-				24416B8311C4CA220047AFDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
